@@ -12,3 +12,6 @@ def contact_view(request):
 
 def about_view(request):
     return render(request, 'website/about.html')
+
+def element_view(request):
+    return render(request, 'website/elements.html')
